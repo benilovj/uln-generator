@@ -1,0 +1,2 @@
+class Uln < ApplicationRecord
+end
