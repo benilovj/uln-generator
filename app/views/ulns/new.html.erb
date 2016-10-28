@@ -1,0 +1,6 @@
+<%= form_tag(controller: "ulns", action: "generate") do %>
+  <%= label_tag :number, "How many ULNs would you like to generate?" %>
+  <%= text_field_tag(:number) %>
+  <br />
+  <%= submit_tag("Generate") %>
+<% end %>

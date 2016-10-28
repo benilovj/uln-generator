@@ -1,0 +1,11 @@
+<p>
+  Your generated ULNs:
+</p>
+
+<ul>
+  <% @ulns.each do |uln| %>
+    <li><%= uln.number %></li>
+  <% end %>
+</ul>
+
+<%= link_to "Back", root_path %>
