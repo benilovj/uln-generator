@@ -18,6 +18,6 @@ private
   end
 
   def generate_new_uln
-    Uln.new(number: '1%09d' % rand(10 ** 9))
+    Uln.new(number: '1%09d' % rand(10 ** 9), name: Faker::Name.name)
   end
 end
